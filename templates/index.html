@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="PAUL AWAJIMIJAN is a software developer crafting clear, useful digital products with Python, JavaScript, HTML, and CSS."
+    />
+    <title>PAUL AWAJIMIJAN | Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="PAUL AWAJIMIJAN home"
+          ><span class="brand-mark">PA</span><span>PAUL AWAJIMIJAN</span></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span></span><span></span><span></span
+          ><b class="sr-only">Toggle navigation</b>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a class="nav-resume" href="#contact">Let's talk <span>↗</span></a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero section-grid" aria-labelledby="hero-title">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">
+              <span class="status-dot"></span> Available for select projects
+              <span class="eyebrow-line"></span>
+            </p>
+            <h1 id="hero-title">
+              Software for the web,<br /><em>built with care.</em>
+            </h1>
+            <p class="hero-intro">
+              I'm Paul, a software developer based in Abuja. I build responsive
+              websites and practical tools with Python, JavaScript, HTML, and
+              CSS.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-dark" href="#work"
+                >See my work <span>↓</span></a
+              >
+              <a class="text-link" href="#contact"
+                >Have a project in mind? <span>↗</span></a
+              >
+            </div>
+          </div>
+          <div class="hero-aside reveal reveal-delay">
+            <div class="orbit-card" aria-label="Code editor illustration">
+              <div class="orbit-ring ring-one"></div>
+              <div class="orbit-ring ring-two"></div>
+              <div class="code-window">
+                <div class="window-bar">
+                  <span></span><span></span><span></span><small>hello.py</small>
+                </div>
+                <pre><code><i>def</i> make_ideas_real():
+    <i>return</i> {
+      <b>"craft"</b>: <strong>"with care"</strong>,
+      <b>"impact"</b>: <strong>True</strong>
+    }</code></pre>
+              </div>
+              <div class="hero-stamp">
+                CODE<br /><span>with</span><br />intent
+              </div>
+            </div>
+            <p class="side-note">
+              01 / 04<br /><span>Python + web<br />development</span>
+            </p>
+          </div>
+        </section>
+
+        <section class="marquee-band" aria-label="Skills">
+          <div class="marquee-track">
+            <span>PYTHON</span><i>✳</i><span>JAVASCRIPT</span><i>✳</i
+            ><span>PRODUCT THINKING</span><i>✳</i><span>PYTHON</span><i>✳</i
+            ><span>JAVASCRIPT</span><i>✳</i><span>PRODUCT THINKING</span
+            ><i>✳</i>
+          </div>
+        </section>
+
+        <section
+          id="work"
+          class="work section-grid section-pad"
+          aria-labelledby="work-title"
+        >
+          <div class="section-heading reveal">
+            <p class="eyebrow">
+              Practice builds <span class="heading-number">/ 02</span>
+            </p>
+            <h2 id="work-title">Small builds,<br /><em>carefully made.</em></h2>
+          </div>
+          <div class="projects">
+            <article class="project project-featured reveal">
+              <div class="project-visual visual-coral">
+                <div class="visual-label">01 / portfolio</div>
+                <div class="dashboard">
+                  <div class="dash-top">
+                    <span>paul.awajimijan</span><small>FLASK + CSS</small>
+                  </div>
+                  <div class="graph">
+                    <span class="graph-line"></span><i></i><i></i><i></i><i></i
+                    ><i></i>
+                  </div>
+                  <div class="dash-stats">
+                    <b>01</b><small>personal portfolio</small>
+                  </div>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div>
+                  <h3>This portfolio</h3>
+                  <p>
+                    A responsive personal site built to show my skills and work.
+                  </p>
+                </div>
+                <span class="project-arrow">↗</span>
+              </div>
+              <div class="tag-list">
+                <span>Python</span><span>Flask</span><span>HTML / CSS</span>
+              </div>
+            </article>
+            <article class="project reveal reveal-delay">
+              <div class="project-visual visual-blue">
+                <div class="visual-label">02 / concept build</div>
+                <div class="browser-card">
+                  <span class="browser-dot"></span
+                  ><span class="browser-dot"></span
+                  ><span class="browser-dot"></span>
+                  <div class="browser-content">
+                    <small>interface study</small
+                    ><strong>Simple tools<br /><em>for people.</em></strong
+                    ><span class="browser-button">Concept build</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div>
+                  <h3>Community interface</h3>
+                  <p>A front-end practice build focused on clear navigation.</p>
+                </div>
+                <span class="project-arrow">↗</span>
+              </div>
+              <div class="tag-list">
+                <span>JavaScript</span><span>UX / UI</span><span>Concept</span>
+              </div>
+            </article>
+            <article class="project project-small reveal">
+              <div class="project-visual visual-yellow">
+                <div class="visual-label">03 / concept build</div>
+                <div class="terminal-card">
+                  <p><span>›</span> focus --today</p>
+                  <strong>write useful code<br />every day_</strong
+                  ><small>practice utility</small>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div>
+                  <h3>Focus utility</h3>
+                  <p>
+                    A JavaScript practice build for managing a short task list.
+                  </p>
+                </div>
+                <span class="project-arrow">↗</span>
+              </div>
+              <div class="tag-list">
+                <span>HTML / CSS</span><span>JavaScript</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section
+          id="about"
+          class="about section-grid section-pad"
+          aria-labelledby="about-title"
+        >
+          <div class="about-image reveal">
+            <div class="portrait-frame">
+              <div class="portrait-shape"></div>
+              <div class="portrait-placeholder">
+                <strong>Your photograph</strong>
+                <small>Add `paul-awajimijan.jpg` to<br />static/images</small>
+              </div>
+              <img
+                class="portrait-photo"
+                src="{{ url_for('static', filename='images/paul-awajimijan.jpg') }}"
+                alt="Portrait of PAUL AWAJIMIJAN"
+                onerror="this.remove()"
+              />
+              <span>Photo coming soon.</span>
+            </div>
+            <p class="image-caption">
+              Somewhere between<br />logic &amp; imagination.
+            </p>
+          </div>
+          <div class="about-copy reveal reveal-delay">
+            <p class="eyebrow">
+              A little about me <span class="heading-number">/ 03</span>
+            </p>
+            <h2 id="about-title">The human<br />behind the <em>code.</em></h2>
+            <p>
+              I enjoy building the parts people use every day: readable layouts,
+              responsive pages, useful forms, and interfaces that work without
+              getting in the way.
+            </p>
+            <p>
+              My main tools are Python, Flask, JavaScript, HTML, and CSS. I am
+              continuing to grow through practical projects and consistent
+              study.
+            </p>
+            <div class="about-facts">
+              <div>
+                <small>Currently</small><strong>Open to opportunities</strong>
+              </div>
+              <div><small>Based in</small><strong>Abuja, Nigeria</strong></div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="contact"
+          class="contact section-pad"
+          aria-labelledby="contact-title"
+        >
+          <div class="contact-inner">
+            <div class="contact-heading reveal">
+              <p class="eyebrow">
+                Start a conversation <span class="heading-number">/ 04</span>
+              </p>
+              <h2 id="contact-title">Have a good<br /><em>feeling?</em></h2>
+              <p>
+                Tell me what you need built or improved, and I will get back to
+                you.
+              </p>
+              <div class="contact-details">
+                <a href="mailto:awajimijanpaul23@gmail.com"
+                  >awajimijanpaul23@gmail.com ↗</a
+                ><span
+                  >or find me on
+                  <a
+                    href="https://www.linkedin.com/in/paul-awajimijan-5a5065344"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >LinkedIn</a
+                  >
+                  /
+                  <a
+                    href="https://github.com/shaul2000"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub</a
+                  ></span
+                >
+              </div>
+            </div>
+            <form class="contact-form reveal reveal-delay" id="contact-form">
+              <label for="name"
+                >Your name<input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="Your name"
+                  required /></label
+              ><label for="email"
+                >Your email<input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="you@example.com"
+                  required /></label
+              ><label for="message"
+                >Tell me about it<textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="What would you like to build?"
+                  required
+                ></textarea></label
+              ><button class="button button-light" type="submit">
+                Send message <span>↗</span>
+              </button>
+              <p class="form-status" id="form-status" role="status"></p>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <a class="brand" href="#top"
+          ><span class="brand-mark">PA</span><span>PAUL AWAJIMIJAN</span></a
+        >
+        <p>Built with Python, JavaScript, HTML &amp; CSS.</p>
+        <p>© <span id="year"></span> PAUL AWAJIMIJAN</p>
+      </footer>
+    </div>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+  </body>
+</html>
