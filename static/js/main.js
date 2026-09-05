@@ -37,15 +37,15 @@ document.querySelector("#year").textContent = new Date().getFullYear();
 form?.addEventListener("submit", async (event) => {
   event.preventDefault();
   const submitButton = form.querySelector("button");
-  const formData = Object.fromEntries(new FormData(form).entries());
+  const formData = new FormData(form);
   submitButton.disabled = true;
   formStatus.textContent = "Sending...";
 
   try {
-    const response = await fetch("/contact", {
+    const response = await fetch(form.action, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
+      headers: { Accept: "application/json" },
+      body: formData,
     });
     const result = await response.json();
     if (!response.ok) throw new Error(result.message);
