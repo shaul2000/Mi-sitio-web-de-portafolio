@@ -7,7 +7,45 @@
       name="description"
       content="PAUL AWAJIMIJAN is a software developer crafting clear, useful digital products with Python, JavaScript, HTML, and CSS."
     />
+    <link rel="canonical" href="{{ request.base_url }}" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Paul Awajimijan" />
+    <meta name="theme-color" content="#f4efe8" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ request.base_url }}" />
+    <meta property="og:title" content="PAUL AWAJIMIJAN | Software Developer" />
+    <meta
+      property="og:description"
+      content="Software developer building responsive websites and practical digital tools with Python, Flask, JavaScript, HTML, and CSS."
+    />
+    <meta property="og:site_name" content="PAUL AWAJIMIJAN" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="PAUL AWAJIMIJAN | Software Developer" />
+    <meta
+      name="twitter:description"
+      content="Software developer building responsive websites and practical digital tools."
+    />
     <title>PAUL AWAJIMIJAN | Software Developer</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Paul Awajimijan",
+        "url": "{{ request.base_url }}",
+        "jobTitle": "Software Developer",
+        "description": "Software developer building responsive websites and practical digital tools.",
+        "email": "mailto:awajimijanpaul23@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Abuja",
+          "addressCountry": "NG"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/paul-awajimijan-5a5065344",
+          "https://github.com/shaul2000"
+        ]
+      }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
